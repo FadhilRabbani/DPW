@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F7FF;
+}
+.nav{
+    background-color: #F7F7FF;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.nav>ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbrand li .brand{
+    z-index: 2;
+    width: 50px;
+    height: 60px;
+    margin-left: 60px;
+}
+.menu{
+    margin-left: 230px;
+    margin-top: 20px;
+    display: flex;  
+}
+.navbtn{
+    display: flex;
+    margin-left: 70px;
+}
+.menu li{
+    width: 75px;
+    height: 26.5px;
+    border: none;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 2px;
+}
+.menu li a{
+    text-decoration: none;
+    color:#0F0A0A;
+    font-size: 12px;
+    font-family: 'roboto',sans-serif;
+}
+.menu li a:hover{
+    border-bottom: #F7F7FF 3px solid;
+}
+.nv-acc-btn{
+    width: 35px;
+    height: 35px;
+}
+.nv-lgnbtn{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.tittle-txt{
+    font-family: 'prata',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.tittle-smtxt{
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+.left img{
+    width: 700px;
+    height: 500px;
+}
+.right{
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.ourteam{
+    background-color: #0F0A0A;
+    height: 250px;
+}
+.ot-txt{
+    font-family: 'prata',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: #F7F7FF 2px solid;
+    width: 150px;
+    margin-left: 560px;
+    padding-top: 30px;
+    background-color: #0F0A0A;
+    color: #F7F7FF;
+}
+.contain{
+    margin-top: 60px;
+    margin-left: 65px;
+    background-color: #0F0A0A;
+}
+.box{
+    display: flex;
+    margin-left: 180px;
+    background-color: #0F0A0A;
+}
+.nama{
+    font-family: 'prata',sans-serif;
+    font-size: 18px;
+    background-color: #0F0A0A;
+    color: #F7F7FF;
+}
+.footer{
+    width: 1263px;
+    height: 300px;
+    background-color: #F7F7FF;
+}
+.fImg{
+    width: 60px;
+    height: 80px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.footTxt{
+    width: 720px;
+    text-align: center;
+    color: #0F0A0A;
+    margin-top: 10px;
+    margin-left: 270px;
+    font-family: 'robot',sans-serif;
+}

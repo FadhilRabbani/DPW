@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F7FF;
+}
+.container{
+    display: flex;
+}
+/* bagian kiri */
+.left{
+    width: 600px;
+    height: 550px;
+    background-color: #F7F7FF;
+}
+.brand-black{
+    width: 70px;
+    height: 90px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.su-tittle-container{
+    display: flex;
+}
+.tittle-signup{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.su-mtxt{
+    font-family: 'prata',sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+.su-smtxt{
+    font-family: 'prata',sans-serif;
+    font-size: 12px;
+    color: #838383;
+}
+.su-form-container{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.su-formtxt{
+    font-family: 'prata',sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.su-form{
+    width: 350px;
+    height: 40px;
+    background: #F7F7FF;
+    border: #838383 1px solid;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.su-btn{
+    background-color: #436436;
+    border: none;
+    color: #F7F7FF;
+    width: 358px;
+    height: 40px;
+    margin-top: 30px;
+}
+.link-login{
+    color: #0F0A0E;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.link-login a{
+    text-decoration: none;
+    color: #436436;
+}
+.link-login a:hover{
+    color: #62974D;
+    border-bottom: #62974D 1px solid;
+}
+/* bagian kanan */
+.right{
+    width: 900px;
+    height: 585.8px;
+    background: linear-gradient(160.41deg, #0F0A0E 29.91%, #436436 104.81%);
+    overflow: hidden;
+}
+.img-container1{
+    margin-top: -100px;
+   background-color: transparent; 
+}
+.bg-img{
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: -70px;
+    width: 900px;
+    height: 883px;
+}
+.bg-img2{
+    background-color: transparent;
+    width: 300px;
+    height: 700px;
+}

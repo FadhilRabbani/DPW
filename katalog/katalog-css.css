@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F7FF;
+}
+.nav{
+    background-color: #F7F7FF;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.nav>ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbrand li .brand{
+    z-index: 2;
+    width: 50px;
+    height: 60px;
+    margin-left: 60px;
+}
+.menu{
+    margin-left: 260px;
+    margin-top: 20px;
+    display: flex;  
+}
+.navbtn{
+    display: flex;
+    margin-left: 70px;
+}
+.menu li{
+    width: 75px;
+    height: 26.5px;
+    border: none;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 2px;
+}
+.menu li a{
+    text-decoration: none;
+    color:#0F0A0A;
+    font-size: 12px;
+    font-family: 'roboto',sans-serif;
+}
+.menu li a:hover{
+    border-bottom: #0F0A0A 3px solid;
+}
+.nv-acc-btn{
+    width: 35px;
+    height: 35px;
+}
+.nv-lgnbtn{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.container-kt{
+    display: flex;
+    margin-left: 0px;
+}
+.kt-left{
+    width: 300px;
+    margin-top: 150px;
+}
+.kt-male,.kt-female{
+    margin-left: 80px;
+}
+.kt-male>ul,.kt-female>ul{
+    list-style: none;
+}
+.kt-maletxt,.kt-femaletxt{
+    font-family: 'prata',sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.kt-male li{
+    margin-bottom: 10px;
+}
+.kt-male li a{
+    text-decoration: none;
+    color: #0F0A0A;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.kt-male li a:hover{
+    border-bottom: #0F0A0A 1px solid;
+}
+.kt-female li{
+    margin-bottom: 10px;
+}
+.kt-female li a{
+    text-decoration: none;
+    color: #0F0A0A;
+    margin-left: 30px;
+    margin-bottom: 00px;
+    font-size: 25px;
+}
+.kt-female li a:hover{
+    border-bottom: #0F0A0A 1px solid;
+}
+.kt-right{
+    width: 1340px;
+    height: 300px;
+    margin-left: 50px;
+}
+.kt-right-tittle{
+    font-family: 'prata',sans-serif;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.kt-Tshirt{
+    font-size: 60px;
+}
+.box-container{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.box-detail{
+    background-color: #F7F7FF;
+    height: 60px;
+}
+.box-grid1{
+    margin-right: 30px;
+    width: 280px;
+    height: 270px;
+    background-color: #a9a9a9;
+}
+.box-grid1 img{
+    width: 220px;
+    height: 190px;
+    background-color: transparent;
+    padding: 20px;
+}
+.detail-left{
+    margin-left: 10px;
+}
+.nametag,.pricetag{
+    font-family: 'joselin sans',sans-serif;
+}
+.nametag{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.pricetag{
+    font-size: 14px;
+}
